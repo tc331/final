@@ -1,0 +1,23 @@
+body {
+text-align:center;
+background-color:‪#‎052D6E‬;
+padding-left:100px;
+padding-right:100px;
+font-size:20px;
+border:12px solid gray;
+outline:7px solid black;
+outline-offset:-8px;
+}
+h1 {
+border:10px solid black;
+text-shadow:2px 3px ‪#‎2D3B8D‬;
+}
+.nav {
+background-color: ‪#‎CCCCCC‬;
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+li {
+text-align:center;
+text-shadow:1px 1px ‪#‎ffE073‬;
+}
