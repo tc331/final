@@ -21,3 +21,12 @@ li {
 text-align:center;
 text-shadow:1px 1px ‪#‎ffE073‬;
 }
+#stars img {
+    text-align:bottom;
+    display:inline-block;
+    width:100px;
+    height:100px;
+    margin-top: 20px;
+    margin-right:10px;
+    margin-left:10px;
+}
