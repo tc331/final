@@ -1,3 +1,4 @@
+//show alternate image on mouse rollover
 $(function () {
     $('#stars img').each(function () {
         $(this).data('original', this.src)
@@ -12,17 +13,9 @@ $(function () {
     })
 })
 
-
+//hide the text div and show when hovering over the image
 $("#stars div").hide();
 $('#stars img').hover(
   function () {
     $(this).next("#stars div").slideToggle();
   });
-
-
-// $("#star_img").mouseenter(function(){
-//     $("#star_info").show();
-// });
-// $("#star_img").mouseleave(function(){
-//     $("#star_info").hide();
-// });
