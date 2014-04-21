@@ -1,9 +1,8 @@
 body {
-	text-align:center;
 	background-color:‪#‎052D6E‬;
-	margin: 20px;
-	padding-left:100px;
-	padding-right:100px;
+	margin:50px 0px; 
+	padding:0px;
+	text-align:center;
 	font-size:20px;
 	border:12px solid gray;
 	outline:7px solid black;
@@ -13,23 +12,33 @@ h1 {
 	border:10px solid black;
 	text-shadow:2px 3px ‪#‎2D3B8D‬;
 }
-.nav ul {
+ul {
 	margin: 0px;
-	padding: 0px;;
+	padding: 0px;
+	background-color: #0292C0;
 }
 
 .nav li{
+	display: inline;;
 	list-style-type: none;
-	display: inline;
 	margin: 0 5px 0 5px;
+	width:175px;
+    height:25px;
+    text-align:center;
+    overflow:hidden;
 }
 
 .nav li a{
-	color: #00F;
+	color: #FFF;
 	text-decoration: none;
 }
 
-
+.content {
+	width:500px;
+	margin: auto;
+	text-align: center;
+	padding:15px;
+	}
 
 #stars img {
     text-align:bottom;
