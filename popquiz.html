@@ -1,0 +1,150 @@
+<html>
+
+<head>
+<title>Star Quiz</title>
+
+<style>
+.qheader{
+font:bold 14px Arial;
+}
+
+.qselections{
+font:normal 13px Arial;
+}
+</style>
+
+<script src="quizconfig.js">
+</script>
+
+<script>
+
+var actualchoices=new Array()
+document.cookie="ready=yes"
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF">
+<p align="center">
+
+<form method="POST" name="myquiz">
+
+<font face="Arial"><big><big>How well do you know about stars?</big></big></font></p>
+
+<div class="qheader">
+1) What makes up a star?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question1">a) Stars are just balls of energy.<br>
+<input type="radio" value="b" name="question1">b) We do not know what exactly makes up a star.<br>
+<input type="radio" value="c" name="question1">c) They are composed largely of gas and plasma, a superheated state of matter composed of subatomic particles.<br>
+<input type="radio" value="d" name="question1">d) Stars are made up some solid material, but we do not know what exactly they are.<br>
+</div>
+
+<br>
+
+<div class="qheader">
+2) A star's brightness and energy level is indicated by what factor?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question2">a) Luminosity<br>
+<input type="radio" value="b" name="question2">b) Brightness<br>
+<input type="radio" value="c" name="question2">c) Energy<br>
+<input type="radio" value="d" name="question2">d) Size<br>
+</div>
+
+<br>
+
+<div class="qheader">
+3) What color are the hottest stars?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question3">a) Red<br>
+<input type="radio" value="b" name="question3">b) Yellow<br>
+<input type="radio" value="c" name="question3">c) Blue<br>
+<input type="radio" value="d" name="question3">d)  Green<br>
+</div>
+
+<br>
+
+<div class="qheader">
+4) What are the biggest stars called?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question4">a) Dwarves<br>
+<input type="radio" value="b" name="question4">b) Extra Large<br>
+<input type="radio" value="c" name="question4">c)Super Giants<br>
+<input type="radio" value="d" name="question4">d) Giants<br>
+</div>
+
+<br>
+
+<div class="qheader">
+5) What are young stars called?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question5">a) Dwarf stars<br>
+<input type="radio" value="b" name="question5">b) Young stars<br>
+<input type="radio" value="c" name="question5">c) Protostars<br>
+<input type="radio" value="d" name="question5">d) New Stars<br>
+</div>
+
+<br>
+
+<div class="qheader">
+6) How long does it take for a star to produce no energy and cool down?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question6">a) Hundreds of Years<br>
+<input type="radio" value="b" name="question6">b) Millions of Years<br>
+<input type="radio" value="c" name="question6">c) Billions of Years<br>
+<input type="radio" value="d" name="question6">d) A Couple of Years<br>
+</div>
+
+<br>
+
+<div class="qheader">
+7) What is it called when a star is going to detonate?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question7">a) Self-destruct<br>
+<input type="radio" value="b" name="question7">b) Supernova<br>
+<input type="radio" value="c" name="question7">c) Suicide<br>
+<input type="radio" value="d" name="question7">d) Explosion<br>
+</div>
+
+<br>
+
+<div class="qheader">
+8) When this detonation occurs, what does it have the potential to turn into?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question8">a) Nothing<br>
+
+<input type="radio" value="b" name="question8">b) Black Hole<br>
+<input type="radio" value="c" name="question8">c) Another star<br>
+<input type="radio" value="d" name="question8">d) None of the Above<br>
+</div>
+
+<br>
+
+<div class="qheader">
+9) What is the primary building block of stars?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question9">a) Carbon<br>
+<input type="radio" value="b" name="question9">b) Uranium<br>
+<input type="radio" value="c" name="question9">c) Hydrogen<br>
+<input type="radio" value="d" name="question9">d) Helium<br>
+</div>
+
+<br>
+
+<div class="qheader">
+10) If a star's mass is larger what does this indicate about its lifespan?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question10">a) Longer<br>
+<input type="radio" value="b" name="question10">b) Shorter<br>
+</div>
+
+</form>
+
+<form>
+<div align="center">
+<input type="button" value="Grade Me!" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
+</form>
+
+
+</body>
+</html>
